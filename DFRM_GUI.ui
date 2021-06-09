@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>500</height>
+      </size>
+     </property>
+     <layout class="QFormLayout" name="formLayout_2">
+      <item row="0" column="0">
+       <widget class="QDockWidget" name="InputDock">
+        <widget class="QWidget" name="dockWidgetContents_2">
+         <layout class="QFormLayout" name="formLayout">
+          <item row="1" column="0" colspan="2">
+           <widget class="QLabel" name="label">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="text">
+             <string>Water Level</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="LatLabel">
+            <property name="text">
+             <string>Jamuna </string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="JamunaLineEdit"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="LongLabel">
+            <property name="text">
+             <string>Teesta</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="TeestaLineEdit">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="WSLabel">
+            <property name="text">
+             <string>Dharla</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLineEdit" name="DharlaLineEdit">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1">
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="9" column="0">
+           <widget class="QLabel" name="label_2">
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Map extend</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="1">
+           <widget class="QComboBox" name="MapExtendCombo">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="frame">
+             <bool>true</bool>
+            </property>
+            <item>
+             <property name="text">
+              <string>District Level</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Union Level</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="10" column="1">
+           <widget class="QComboBox" name="UnionCombo">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <item>
+             <property name="text">
+              <string>Ashtamir Char</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Patharsi</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="11" column="1">
+           <spacer name="verticalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="14" column="1">
+           <widget class="QRadioButton" name="InundatatiinRB">
+            <property name="text">
+             <string>Inundation Map</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="0">
+           <widget class="QLabel" name="label_3">
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Map type</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="1">
+           <widget class="QRadioButton" name="HazardRB">
+            <property name="text">
+             <string>Hazard Map</string>
+            </property>
+           </widget>
+          </item>
+          <item row="25" column="1">
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="26" column="0">
+           <widget class="QPushButton" name="ClearPButton">
+            <property name="text">
+             <string>Clear</string>
+            </property>
+           </widget>
+          </item>
+          <item row="26" column="1">
+           <widget class="QPushButton" name="SubmitPButton">
+            <property name="text">
+             <string>Submit</string>
+            </property>
+           </widget>
+          </item>
+          <item row="16" column="1">
+           <widget class="QRadioButton" name="VulnerabilityRB">
+            <property name="text">
+             <string>Vulnerability Map</string>
+            </property>
+           </widget>
+          </item>
+          <item row="17" column="1">
+           <widget class="QComboBox" name="VulCombo">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <item>
+             <property name="text">
+              <string>Human Vulnerability</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Social Vulnerability</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Physical Vulnerability</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Natural Vulnerability</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Financial Vulnerability</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Combine Vulnerability</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="18" column="1">
+           <widget class="QRadioButton" name="CapitalRB">
+            <property name="text">
+             <string>Capital Map</string>
+            </property>
+           </widget>
+          </item>
+          <item row="19" column="1">
+           <widget class="QComboBox" name="CapCombo">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <item>
+             <property name="text">
+              <string>Human Capital</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Social Capital</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Physical Capital</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Natural Capital</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Financial Capital</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Combine Capital</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="20" column="1">
+           <widget class="QRadioButton" name="RiskRB">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string>Risk Map</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QDockWidget" name="ImageDock">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>500</height>
+         </size>
+        </property>
+        <widget class="QWidget" name="dockWidgetContents">
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="ImView">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">Background : rgb(255, 255, 255)</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="savePB">
+        <property name="text">
+         <string>Save</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
