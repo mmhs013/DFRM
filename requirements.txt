@@ -1,0 +1,11 @@
+pyinstaller
+numpy
+pandas
+matplotlib
+gdal
+geopandas
+PyQt5
+pyproj
+rtree
+xlrd
+openpyxl

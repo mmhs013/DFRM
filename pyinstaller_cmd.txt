@@ -1,3 +1,0 @@
-pyinstaller --onefile -w DFRM_GUI_File.py
-
-pyinstaller DFRM_GUI_File_gui.spec
